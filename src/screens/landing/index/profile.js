@@ -1,13 +1,24 @@
 const EXPERIENCE = [
   {
     iconName: "work",
-    title: "PepsiCo eCommerce - Elixir Developer Sr",
-    subtitle: "nov. 2023 - current",
+    title: "SalesRabbit - Software Engineer",
+    subtitle: "dec. 2024 - current",
     description: <div>
-      Working on internal software only related to business intelligence and reports about PepsiCo Products and all the 
-      inner brands
+      Develop new features that directly affects the client experience
     </div>,
-    tags: ["full-time", "remote", "elixir", "phoenix", "postgresql", "aws", "docker", "snowflake", "oban"],
+    tags: ["full-time", "remote", "elixir", "phoenix", "ash", "postgresql", "aws", "docker", "oban"],
+  },
+  {
+    iconName: "work",
+    title: "PepsiCo eCommerce - Elixir Developer Sr",
+    subtitle: "nov. 2023 - dec. 2024",
+    description: <div>
+      Worked on internal projects related to business intelligence, reports, customer support, refunds and more.
+
+      Developed and refactored a lot of components, created new whole sections/modules and fixed a lot of bugs in order to
+      enhance the re-usability of all the pieces of code to develop in the fastest way as possibly always with tests in mind
+    </div>,
+    tags: ["full-time", "remote", "elixir", "phoenix", "live_view", "tailwind", "postgresql", "aws", "docker", "snowflake", "oban"],
   },
   {
     iconName: "work",
@@ -167,14 +178,26 @@ const PROJECTS = [
     description: "Elixir http micro framework inspired in Flask",
     tags: ["elixir", "api"],
   },
+  {
+    name: "precuter",
+    url: "https://github.com/nicolkill/precuter",
+    description: "Another decorator library for Elixir",
+    tags: ["elixir"],
+  },
+  {
+    name: "troll_bridge",
+    url: "https://github.com/nicolkill/troll_bridge",
+    description: "Permission verification library with Phoenix/LiveView direct implementation - The troll must give you permission to pass through the bridge",
+    tags: ["elixir", "permissions", "roles"],
+  },
 ]
 
 const PROFILE = {
   full_name: "Nicol Acosta",
   work_title: "Software Engineer",
-  expertise: ["Elixir", "Phoenix", "Ash", "Javascript/Typescript", "NextJS", "NestJS"],
+  expertise: ["Elixir", "Phoenix", "Ash", "LiveView", "Javascript/Typescript", "NextJS", "NestJS"],
   who_im_i: <>
-    Im a Software Engineer with 9+ years of experience, 7+ using <b>Elixir (Phoenix, Ash)</b> and 7+ usin <b>
+    Im a Software Engineer with 11+ years of experience, 9+ using <b>Elixir (Phoenix, Ash)</b> and 10+ using <b>
     Javascript/Typescript (Node, React, NextJS, NestJS, )</b> and more languages like Ruby and Python, i know how to take a product and
     move from nothing to production across software development, devops and deployment to AWS or another cloud service
     ensuring good practices in code and management, ensuring product reliability and grow.
